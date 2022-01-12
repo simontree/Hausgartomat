@@ -36,7 +36,7 @@ public class Management : MonoBehaviour
             try
             {
                 arduinoByte = sp.ReadLine();
-                Debug.Log(arduinoByte);
+                //Debug.Log(arduinoByte);
                 if (arduinoByte.Length==1)
                 {
                     switch (arduinoByte)
@@ -54,42 +54,52 @@ public class Management : MonoBehaviour
                         case "c": // Good enough light, ambient + led
                             correctLit = true;
                             lightIcon.GetComponent<Renderer>().material.color = Color.green;
+                            Debug.Log("Optimum Light. Led ON");
                             break;
                         case "d": // Good enough light, only ambient
                             correctLit = true;
                             lightIcon.GetComponent<Renderer>().material.color = Color.green;
+                            Debug.Log("Optimum Light.Led OFF");
                             break;
                         case "e": // Too little light, ambient only
                             correctLit = false;
                             lightIcon.GetComponent<Renderer>().material.color = Color.black;
+                            Debug.Log("Too low Light.Led ON");
                             break;
                         case "f": // Too little light, ambient + ledOn (busted, obstructed)
                             correctLit = false;
                             gameObject.GetComponent<Renderer>().material.color = Color.black;
+                            Debug.Log("Too low Light.Led OFF");
                             break;
-                        case "g": // Tôo hot, fan on
+                        case "g": // Too hot, fan on
                             correctTemp = false;
                             tempIcon.GetComponent<Renderer>().material.color = Color.red;
+                            Debug.Log("Too hot. Fan ON");
                             break;
                         case "h": // Too hot, fan off
                             correctTemp = false;
                             tempIcon.GetComponent<Renderer>().material.color = Color.red;
+                            Debug.Log("Too hot. Fan OFF");
                             break;
                         case "i": // Good, fan on
                             correctTemp = true;
                             tempIcon.GetComponent<Renderer>().material.color = Color.green;
+                            Debug.Log("Optimum Temp. Fan ON");
                             break;
                         case "j": // Good, fan off
                             correctTemp = true;
                             tempIcon.GetComponent<Renderer>().material.color = Color.green;
+                            Debug.Log("Optimum Temp. Fan OFF");
                             break;
                         case "k": // Too cold, fan on
                             correctTemp = false;
                             tempIcon.GetComponent<Renderer>().material.color = Color.black;
+                            Debug.Log("Too cold Temp. Fan ON");
                             break;
                         case "l": // Too cold, fan off
                             correctTemp = false;
                             tempIcon.GetComponent<Renderer>().material.color = Color.black;
+                            Debug.Log("Too cold Temp. Fan OFF");
                             break;
                         default:
                             Debug.Log("Case error!");
@@ -170,6 +180,7 @@ public class Management : MonoBehaviour
         fanSwitch(_tempIconScript.getFantate());
     }
 
+    //Slower Checks
     IEnumerator Slower()
     {
         print(Time.time);
