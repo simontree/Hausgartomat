@@ -44,10 +44,12 @@ public class Management : MonoBehaviour
                         case "a": // Too much light, Led + ambient 
                             correctLit = false;
                             lightIcon.GetComponent<Renderer>().material.color = Color.red;
+                            Debug.Log("Too much Light.Led ON");
                             break;
                         case "b": // Too much light, Only ambient
                             correctLit = false;
                             lightIcon.GetComponent<Renderer>().material.color = Color.red;
+                            Debug.Log("Too much Light.Led OFF");
                             break;
                         case "c": // Good enough light, ambient + led
                             correctLit = true;
