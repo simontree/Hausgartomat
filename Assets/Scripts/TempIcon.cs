@@ -22,7 +22,7 @@ public class TempIcon : MonoBehaviour
         fanOn = !fanOn;
     }
 
-    public bool getFantate()
+    public bool getFanState()
     {
         return fanOn;
     }
