@@ -1,4 +1,4 @@
-# Hausgartomat
+# Plantomat / Hausgartomat
 Unity C# Code for HTW Berlin Project
 
 Related Courses: Development & Design of Multimediasystems
