@@ -17,6 +17,6 @@ https://github.com/simontree/HausgartomatArduino
 
 ## UI-Preview
 
-![Dashboard Plantomat](https://github.com/simontree/Hausgartomat/blob/main/img/1.2-Plants_Dashboard-State%202.png)
+![Dashboard Plantomat](https://github.com/simontree/Hausgartomat/blob/main/img/1.2-Plants_Dashboard-State-2.png)
 ![Plan-Mode Plantomat](https://github.com/simontree/Hausgartomat/blob/main/img/5.1-Planung0.png)
 ![Plantpedia](https://github.com/simontree/Hausgartomat/blob/main/img/8.1-Plantpedia_Tomato.png)
