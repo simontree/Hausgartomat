@@ -1,6 +1,6 @@
 # Hausgartomat
-HTW Berlin Projekt
+Unity C# Code for HTW Berlin Project
 
-Kurse: Entwicklung & Gestaltung von Multimediasystemen
+Related Courses: Development & Design of Multimediasystems
 
 Hausgartomat will be an automated growing system for unexperienced urban gardeners.
