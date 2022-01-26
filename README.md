@@ -19,5 +19,6 @@ https://github.com/simontree/HausgartomatArduino
 <div>
 <img src="https://github.com/simontree/Hausgartomat/blob/main/img/1.2-Plants_Dashboard-State-2.png" alt="Dashboard Plantomat" width="200" height="423">
 <img src="https://github.com/simontree/Hausgartomat/blob/main/img/5.1-Planung0.png" alt="Plan-Mode Plantomat" width="200" height="423">
+<img src="https://github.com/simontree/Hausgartomat/blob/main/img/5.2-Planning_All-State-2.jpg" alt="Plan-Mode Plantomat" width="200" height="423">
 <img src="https://github.com/simontree/Hausgartomat/blob/main/img/8.1-Plantpedia_Tomato.png" alt="Plantpedia" width="200" height="423">
 </div>
