@@ -1,6 +1,6 @@
-# Plantomat / Hausgartomat
+# Plantomat
 
-Plantomat / Hausgartomat will be an automated growing system for interested urban gardeners.
+Plantomat is an automated growing system for interested urban gardeners.
 
 Unity C# Code for HTW Berlin Project
 
